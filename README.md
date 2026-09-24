@@ -9,3 +9,5 @@ Turn based
 
 Core loop of Bob the Skeleton:
 explore level, defeat rival skeletons, improve gear, 
+
+Usernames: Oshuratitan9, catdad32
