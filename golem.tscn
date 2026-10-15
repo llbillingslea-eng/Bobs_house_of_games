@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b8l3a7dc7auwj"]
+
+[ext_resource type="Script" uid="uid://by4ehaarrqssd" path="res://golem.gd" id="1_uo40p"]
+[ext_resource type="Texture2D" uid="uid://c0x6mtl331lho" path="res://golem_idle.png" id="2_m6pht"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jknfv"]
+size = Vector2(72, 136)
+
+[node name="Golem" type="CharacterBody2D" unique_id=1391866760]
+position = Vector2(10, -19)
+script = ExtResource("1_uo40p")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=786227639]
+position = Vector2(26, 56.000008)
+scale = Vector2(0.22777778, 0.20888889)
+texture = ExtResource("2_m6pht")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=14004960]
+position = Vector2(26, 58)
+shape = SubResource("RectangleShape2D_jknfv")

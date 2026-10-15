@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://wsmuqoq1fen1"]
+
+[ext_resource type="PackedScene" uid="uid://cuha4ao5g1n6t" path="res://walls.tscn" id="1_1q0j8"]
+[ext_resource type="PackedScene" uid="uid://iyp6u1flxnv8" path="res://door.tscn" id="2_n2bu5"]
+[ext_resource type="PackedScene" uid="uid://bomg3c3377dj7" path="res://bob.tscn" id="3_fpksy"]
+[ext_resource type="PackedScene" uid="uid://b8l3a7dc7auwj" path="res://golem.tscn" id="4_n2bu5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n2bu5"]
+size = Vector2(72, 460)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fpksy"]
+size = Vector2(376.5, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bhpv2"]
+size = Vector2(767, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_avvnj"]
+size = Vector2(64, 456)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_il6ja"]
+size = Vector2(293, 24)
+
+[node name="Map1" type="Node2D" unique_id=106595262]
+
+[node name="Ground" type="ColorRect" parent="." unique_id=536406587]
+offset_left = 14.0
+offset_top = 27.0
+offset_right = 1162.0
+offset_bottom = 673.0
+color = Color(0.8503605, 0.55551034, 0.13629097, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground2" type="ColorRect" parent="." unique_id=2101280036]
+offset_left = 364.0
+offset_top = 627.0
+offset_right = 1111.0
+offset_bottom = 1104.0
+color = Color(0.8427598, 0.6084135, 0.096123494, 1)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1200472824]
+
+[node name="Door" parent="." unique_id=1082767917 instance=ExtResource("2_n2bu5")]
+position = Vector2(1045, 1041)
+
+[node name="Bob" parent="." unique_id=2025202253 instance=ExtResource("3_fpksy")]
+position = Vector2(20, 555)
+
+[node name="Golem" parent="." unique_id=677982196 instance=ExtResource("4_n2bu5")]
+position = Vector2(556.99994, 283.99997)
+
+[node name="Walls" parent="." unique_id=63947937 instance=ExtResource("1_1q0j8")]
+
+[node name="Left2" type="CollisionShape2D" parent="Walls" unique_id=651226707]
+position = Vector2(370, 868)
+shape = SubResource("RectangleShape2D_n2bu5")
+
+[node name="Bottom2" type="CollisionShape2D" parent="Walls" unique_id=335535634]
+position = Vector2(191.5, 636)
+shape = SubResource("RectangleShape2D_fpksy")
+
+[node name="Bottom3" type="CollisionShape2D" parent="Walls" unique_id=480826651]
+position = Vector2(717.5, 1092)
+shape = SubResource("RectangleShape2D_bhpv2")
+
+[node name="Right2" type="CollisionShape2D" parent="Walls" unique_id=1242320730]
+position = Vector2(1122, 866)
+shape = SubResource("RectangleShape2D_avvnj")
+
+[node name="Bar2" type="CollisionShape2D" parent="Walls" unique_id=1736466359]
+position = Vector2(728, 848)
+shape = SubResource("RectangleShape2D_il6ja")
+
+[node name="ColorRect" type="ColorRect" parent="Walls/Bar2" unique_id=1392761532]
+offset_left = -152.0
+offset_top = -21.0
+offset_right = 155.0
+offset_bottom = 19.0
+color = Color(0.24705882, 1, 1, 1)
+
+[editable path="Door"]

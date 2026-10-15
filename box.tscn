@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cgbnq7xn000ix"]
+
+[ext_resource type="Texture2D" uid="uid://doqjces3d7jpc" path="res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png" id="1_g2tbl"]
+[ext_resource type="Script" uid="uid://dgh535k4j0uud" path="res://box.gd" id="1_oq5cr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cs4na"]
+size = Vector2(129, 127)
+
+[node name="Box" type="Area2D" unique_id=1139558547]
+script = ExtResource("1_oq5cr")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1716754293]
+texture = ExtResource("1_g2tbl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=85718377]
+position = Vector2(0.5, 1.5)
+shape = SubResource("RectangleShape2D_cs4na")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

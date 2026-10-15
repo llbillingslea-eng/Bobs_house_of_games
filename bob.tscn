@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bomg3c3377dj7"]
+
+[ext_resource type="Script" uid="uid://bajwm6vko87fr" path="res://bob.gd" id="1_icjee"]
+[ext_resource type="Texture2D" uid="uid://6cc721lwetww" path="res://2D Skeletons/idle.png" id="2_0rv64"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cs4na"]
+size = Vector2(184, 200)
+
+[node name="Bob" type="CharacterBody2D" unique_id=2025202253]
+position = Vector2(40, 54)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_icjee")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=573384118]
+position = Vector2(30, 30)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_0rv64")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=25788670]
+position = Vector2(33, 32)
+shape = SubResource("RectangleShape2D_cs4na")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1566764905]
+limit_bottom = 5000000
+limit_smoothed = true

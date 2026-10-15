@@ -1,0 +1,501 @@
+[gd_scene format=3 uid="uid://dqtcevwiggtym"]
+
+[ext_resource type="Texture2D" uid="uid://itnkm1kwo38" path="res://2D Skeletons/Sprites/2.png" id="1_0nuxv"]
+[ext_resource type="Script" uid="uid://c288ne13mwfbn" path="res://map_2.gd" id="1_rcsii"]
+[ext_resource type="PackedScene" uid="uid://b8l3a7dc7auwj" path="res://golem.tscn" id="2_0nuxv"]
+[ext_resource type="PackedScene" uid="uid://bomg3c3377dj7" path="res://bob.tscn" id="2_igs0g"]
+[ext_resource type="Texture2D" uid="uid://f55r4xxse0ny" path="res://5.png" id="3_frbht"]
+[ext_resource type="PackedScene" uid="uid://cbvadjosiagfk" path="res://barrel.tscn" id="6_luiv8"]
+[ext_resource type="PackedScene" uid="uid://beh3a8gnqqckp" path="res://fence.tscn" id="6_rcsii"]
+[ext_resource type="PackedScene" uid="uid://1nt7x73mylcs" path="res://door_2.tscn" id="7_s123t"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s123t"]
+load_path = "res://.godot/imported/5.png-822d47692d809d18300b282bcb02a0c7.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ecghn"]
+size = Vector2(698, 81.00003)
+
+[node name="Map2" type="Node2D" unique_id=106595262]
+script = ExtResource("1_rcsii")
+
+[node name="Room1" type="Sprite2D" parent="." unique_id=318540242]
+position = Vector2(586.5, 333.00003)
+scale = Vector2(0.30078125, 0.37227947)
+texture = ExtResource("1_0nuxv")
+
+[node name="7" type="Sprite2D" parent="." unique_id=1342116097]
+position = Vector2(4232, 49)
+scale = Vector2(0.75208336, 0.6502732)
+texture = SubResource("CompressedTexture2D_s123t")
+
+[node name="5" type="Sprite2D" parent="." unique_id=1944346033]
+position = Vector2(1972.9999, 328)
+scale = Vector2(0.42382815, 0.46904588)
+texture = ExtResource("3_frbht")
+
+[node name="6" type="Sprite2D" parent="." unique_id=727601502]
+position = Vector2(1978, 1261.0001)
+rotation = 1.5707964
+scale = Vector2(0.31920618, 0.40131262)
+texture = ExtResource("3_frbht")
+
+[node name="Golem" parent="." unique_id=677982196 instance=ExtResource("2_0nuxv")]
+position = Vector2(778, 335.99994)
+scale = Vector2(1, 0.99999994)
+
+[node name="Golem2" parent="." unique_id=1391866760 instance=ExtResource("2_0nuxv")]
+position = Vector2(1912, 1342)
+scale = Vector2(1, 0.99999994)
+
+[node name="Golem3" parent="." unique_id=1012517835 instance=ExtResource("2_0nuxv")]
+position = Vector2(4731, 325)
+scale = Vector2(1, 0.99999994)
+
+[node name="Bob" parent="." unique_id=2025202253 instance=ExtResource("2_igs0g")]
+position = Vector2(120, 352)
+
+[node name="Barrel" parent="." unique_id=1173824738 instance=ExtResource("6_luiv8")]
+position = Vector2(3115, 350)
+
+[node name="Barrel2" parent="." unique_id=1362350447 instance=ExtResource("6_luiv8")]
+position = Vector2(1231, 208)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1871293972]
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=2117705982]
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=1941763078]
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="." unique_id=576660522]
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="." unique_id=834025355]
+
+[node name="StaticBody2D" type="CollisionShape2D" parent="StaticBody2D5" unique_id=1087111899]
+position = Vector2(-8.500004, 334)
+rotation = 1.5707964
+shape = SubResource("RectangleShape2D_ecghn")
+
+[node name="fence" parent="." unique_id=433881453 instance=ExtResource("6_rcsii")]
+position = Vector2(2852, -10)
+
+[node name="fence70" parent="." unique_id=425558116 instance=ExtResource("6_rcsii")]
+position = Vector2(1085, 40)
+
+[node name="fence2" parent="." unique_id=1738752111 instance=ExtResource("6_rcsii")]
+position = Vector2(2981, -11)
+
+[node name="fence3" parent="." unique_id=1097722908 instance=ExtResource("6_rcsii")]
+position = Vector2(3108, -12)
+
+[node name="fence90" parent="." unique_id=951041189 instance=ExtResource("6_rcsii")]
+position = Vector2(3108, -12)
+
+[node name="fence4" parent="." unique_id=1970247556 instance=ExtResource("6_rcsii")]
+position = Vector2(3237, -13)
+
+[node name="fence5" parent="." unique_id=236261432 instance=ExtResource("6_rcsii")]
+position = Vector2(3365, -15)
+
+[node name="fence6" parent="." unique_id=547518423 instance=ExtResource("6_rcsii")]
+position = Vector2(3494, -16)
+
+[node name="fence7" parent="." unique_id=1150762664 instance=ExtResource("6_rcsii")]
+position = Vector2(3621, -17)
+
+[node name="fence8" parent="." unique_id=461221436 instance=ExtResource("6_rcsii")]
+position = Vector2(3750, -18)
+
+[node name="fence62" parent="." unique_id=1740306908 instance=ExtResource("6_rcsii")]
+position = Vector2(53, 53)
+
+[node name="fence71" parent="." unique_id=343848044 instance=ExtResource("6_rcsii")]
+position = Vector2(2852, -10)
+
+[node name="fence72" parent="." unique_id=151747541 instance=ExtResource("6_rcsii")]
+position = Vector2(1085, 40)
+
+[node name="fence73" parent="." unique_id=505686155 instance=ExtResource("6_rcsii")]
+position = Vector2(2981, -11)
+
+[node name="fence74" parent="." unique_id=1625108512 instance=ExtResource("6_rcsii")]
+position = Vector2(16, 425)
+
+[node name="fence75" parent="." unique_id=1630535868 instance=ExtResource("6_rcsii")]
+position = Vector2(3237, -13)
+
+[node name="fence76" parent="." unique_id=18583661 instance=ExtResource("6_rcsii")]
+position = Vector2(3365, -15)
+
+[node name="fence77" parent="." unique_id=1181754550 instance=ExtResource("6_rcsii")]
+position = Vector2(3494, -16)
+
+[node name="fence78" parent="." unique_id=1836844064 instance=ExtResource("6_rcsii")]
+position = Vector2(3621, -17)
+
+[node name="fence79" parent="." unique_id=436113695 instance=ExtResource("6_rcsii")]
+position = Vector2(3750, -18)
+
+[node name="fence81" parent="." unique_id=204759175 instance=ExtResource("6_rcsii")]
+position = Vector2(191, 600)
+
+[node name="fence82" parent="." unique_id=1768859858 instance=ExtResource("6_rcsii")]
+position = Vector2(65, 597)
+
+[node name="fence83" parent="." unique_id=1513179380 instance=ExtResource("6_rcsii")]
+position = Vector2(320, 599)
+
+[node name="fence84" parent="." unique_id=658358633 instance=ExtResource("6_rcsii")]
+position = Vector2(447, 598)
+
+[node name="fence85" parent="." unique_id=273061393 instance=ExtResource("6_rcsii")]
+position = Vector2(576, 597)
+
+[node name="fence86" parent="." unique_id=580607163 instance=ExtResource("6_rcsii")]
+position = Vector2(704, 595)
+
+[node name="fence87" parent="." unique_id=1080968578 instance=ExtResource("6_rcsii")]
+position = Vector2(833, 594)
+
+[node name="fence88" parent="." unique_id=400142014 instance=ExtResource("6_rcsii")]
+position = Vector2(960, 593)
+
+[node name="fence89" parent="." unique_id=1503721566 instance=ExtResource("6_rcsii")]
+position = Vector2(1089, 592)
+
+[node name="fence91" parent="." unique_id=848184007 instance=ExtResource("6_rcsii")]
+position = Vector2(1217, 589)
+
+[node name="fence92" parent="." unique_id=1756488032 instance=ExtResource("6_rcsii")]
+position = Vector2(1344, 588)
+
+[node name="fence93" parent="." unique_id=766197385 instance=ExtResource("6_rcsii")]
+position = Vector2(1473, 587)
+
+[node name="fence94" parent="." unique_id=169998758 instance=ExtResource("6_rcsii")]
+position = Vector2(1600, 587)
+
+[node name="fence117" parent="." unique_id=148985876 instance=ExtResource("6_rcsii")]
+position = Vector2(2352, 589)
+
+[node name="fence118" parent="." unique_id=1861262921 instance=ExtResource("6_rcsii")]
+position = Vector2(2479, 588)
+
+[node name="fence119" parent="." unique_id=1403337740 instance=ExtResource("6_rcsii")]
+position = Vector2(2608, 587)
+
+[node name="fence120" parent="." unique_id=1564977696 instance=ExtResource("6_rcsii")]
+position = Vector2(2735, 587)
+
+[node name="fence121" parent="." unique_id=1300655374 instance=ExtResource("6_rcsii")]
+position = Vector2(2352, 589)
+
+[node name="fence122" parent="." unique_id=203795402 instance=ExtResource("6_rcsii")]
+position = Vector2(2479, 588)
+
+[node name="fence123" parent="." unique_id=515611754 instance=ExtResource("6_rcsii")]
+position = Vector2(2608, 587)
+
+[node name="fence124" parent="." unique_id=1460507903 instance=ExtResource("6_rcsii")]
+position = Vector2(2735, 587)
+
+[node name="fence125" parent="." unique_id=1795352283 instance=ExtResource("6_rcsii")]
+position = Vector2(1765, 1835)
+rotation = -0.023922134
+
+[node name="fence126" parent="." unique_id=2035608150 instance=ExtResource("6_rcsii")]
+position = Vector2(1889, 1841)
+rotation = -0.035970084
+
+[node name="fence127" parent="." unique_id=688262524 instance=ExtResource("6_rcsii")]
+position = Vector2(2018, 1840)
+rotation = -0.035970084
+
+[node name="fence128" parent="." unique_id=1868056697 instance=ExtResource("6_rcsii")]
+position = Vector2(2145, 1840)
+rotation = -0.035970084
+
+[node name="fence95" parent="." unique_id=1173323198 instance=ExtResource("6_rcsii")]
+position = Vector2(1646, 1091)
+rotation = 1.5707964
+
+[node name="fence96" parent="." unique_id=1270977691 instance=ExtResource("6_rcsii")]
+position = Vector2(1642, 720)
+rotation = 1.5707964
+
+[node name="fence97" parent="." unique_id=153841361 instance=ExtResource("6_rcsii")]
+position = Vector2(1645, 857)
+rotation = 1.5707964
+
+[node name="fence98" parent="." unique_id=1667039280 instance=ExtResource("6_rcsii")]
+position = Vector2(1649, 976)
+rotation = 1.5707964
+
+[node name="fence99" parent="." unique_id=1930897488 instance=ExtResource("6_rcsii")]
+position = Vector2(1650, 1588)
+rotation = 1.5707964
+
+[node name="fence100" parent="." unique_id=1042168320 instance=ExtResource("6_rcsii")]
+position = Vector2(1646, 1217)
+rotation = 1.5707964
+
+[node name="fence101" parent="." unique_id=871807760 instance=ExtResource("6_rcsii")]
+position = Vector2(1649, 1354)
+rotation = 1.5707964
+
+[node name="fence102" parent="." unique_id=606861353 instance=ExtResource("6_rcsii")]
+position = Vector2(1653, 1473)
+rotation = 1.5707964
+
+[node name="fence103" parent="." unique_id=2110403172 instance=ExtResource("6_rcsii")]
+position = Vector2(1650, 1827)
+rotation = 1.5707964
+
+[node name="fence105" parent="." unique_id=1751647657 instance=ExtResource("6_rcsii")]
+position = Vector2(1642, 720)
+rotation = 1.5707964
+
+[node name="fence106" parent="." unique_id=747788760 instance=ExtResource("6_rcsii")]
+position = Vector2(1650, 1827)
+rotation = 1.5707964
+
+[node name="fence104" parent="." unique_id=8334158 instance=ExtResource("6_rcsii")]
+position = Vector2(1653, 1712)
+rotation = 1.5707964
+
+[node name="fence107" parent="." unique_id=554981490 instance=ExtResource("6_rcsii")]
+position = Vector2(2254, 1080)
+rotation = 1.5707964
+
+[node name="fence108" parent="." unique_id=1963072562 instance=ExtResource("6_rcsii")]
+position = Vector2(2253, 846)
+rotation = 1.5707964
+
+[node name="fence109" parent="." unique_id=357190305 instance=ExtResource("6_rcsii")]
+position = Vector2(2257, 965)
+rotation = 1.5707964
+
+[node name="fence110" parent="." unique_id=2023567751 instance=ExtResource("6_rcsii")]
+position = Vector2(2258, 1577)
+rotation = 1.5707964
+
+[node name="fence111" parent="." unique_id=31535945 instance=ExtResource("6_rcsii")]
+position = Vector2(2254, 1206)
+rotation = 1.5707964
+
+[node name="fence112" parent="." unique_id=1096424379 instance=ExtResource("6_rcsii")]
+position = Vector2(2257, 1343)
+rotation = 1.5707964
+
+[node name="fence113" parent="." unique_id=2102623360 instance=ExtResource("6_rcsii")]
+position = Vector2(2261, 1462)
+rotation = 1.5707964
+
+[node name="fence114" parent="." unique_id=88986562 instance=ExtResource("6_rcsii")]
+position = Vector2(2250, 709)
+rotation = 1.5707964
+
+[node name="fence115" parent="." unique_id=1177966636 instance=ExtResource("6_rcsii")]
+position = Vector2(2258, 1816)
+rotation = 1.5707964
+
+[node name="fence116" parent="." unique_id=660642421 instance=ExtResource("6_rcsii")]
+position = Vector2(2261, 1701)
+rotation = 1.5707964
+
+[node name="fence80" parent="." unique_id=1250961100 instance=ExtResource("6_rcsii")]
+position = Vector2(53, 53)
+
+[node name="fence63" parent="." unique_id=850073062 instance=ExtResource("6_rcsii")]
+position = Vector2(182, 52)
+
+[node name="fence64" parent="." unique_id=1255391931 instance=ExtResource("6_rcsii")]
+position = Vector2(309, 51)
+
+[node name="fence65" parent="." unique_id=310514154 instance=ExtResource("6_rcsii")]
+position = Vector2(438, 50)
+
+[node name="fence66" parent="." unique_id=1455606787 instance=ExtResource("6_rcsii")]
+position = Vector2(566, 48)
+
+[node name="fence67" parent="." unique_id=517241104 instance=ExtResource("6_rcsii")]
+position = Vector2(695, 47)
+
+[node name="fence68" parent="." unique_id=593670265 instance=ExtResource("6_rcsii")]
+position = Vector2(822, 46)
+
+[node name="fence69" parent="." unique_id=903129942 instance=ExtResource("6_rcsii")]
+position = Vector2(951, 45)
+
+[node name="fence9" parent="." unique_id=831590834 instance=ExtResource("6_rcsii")]
+position = Vector2(3873, -20)
+
+[node name="fence10" parent="." unique_id=604131156 instance=ExtResource("6_rcsii")]
+position = Vector2(4002, -21)
+
+[node name="fence11" parent="." unique_id=1530437058 instance=ExtResource("6_rcsii")]
+position = Vector2(4129, -22)
+
+[node name="fence12" parent="." unique_id=1691982350 instance=ExtResource("6_rcsii")]
+position = Vector2(4258, -23)
+
+[node name="fence13" parent="." unique_id=1205871811 instance=ExtResource("6_rcsii")]
+position = Vector2(4386, -25)
+
+[node name="fence14" parent="." unique_id=615689671 instance=ExtResource("6_rcsii")]
+position = Vector2(4515, -26)
+
+[node name="fence15" parent="." unique_id=1858245624 instance=ExtResource("6_rcsii")]
+position = Vector2(4642, -27)
+
+[node name="fence16" parent="." unique_id=401291075 instance=ExtResource("6_rcsii")]
+position = Vector2(4771, -28)
+
+[node name="fence17" parent="." unique_id=1762680932 instance=ExtResource("6_rcsii")]
+position = Vector2(4894, -28)
+
+[node name="fence18" parent="." unique_id=1193019818 instance=ExtResource("6_rcsii")]
+position = Vector2(5023, -29)
+
+[node name="fence19" parent="." unique_id=1670030953 instance=ExtResource("6_rcsii")]
+position = Vector2(5150, -30)
+
+[node name="fence20" parent="." unique_id=1881269052 instance=ExtResource("6_rcsii")]
+position = Vector2(5279, -31)
+
+[node name="fence21" parent="." unique_id=970271573 instance=ExtResource("6_rcsii")]
+position = Vector2(5407, -33)
+
+[node name="fence22" parent="." unique_id=912496954 instance=ExtResource("6_rcsii")]
+position = Vector2(5536, -34)
+
+[node name="fence23" parent="." unique_id=438205497 instance=ExtResource("6_rcsii")]
+position = Vector2(5663, -35)
+
+[node name="fence129" parent="." unique_id=302725502 instance=ExtResource("6_rcsii")]
+position = Vector2(5635, 162)
+
+[node name="fence130" parent="." unique_id=1991287983 instance=ExtResource("6_rcsii")]
+position = Vector2(5635, 34)
+
+[node name="fence131" parent="." unique_id=916406557 instance=ExtResource("6_rcsii")]
+position = Vector2(5645, 415)
+
+[node name="fence132" parent="." unique_id=1179985505 instance=ExtResource("6_rcsii")]
+position = Vector2(5645, 287)
+
+[node name="fence24" parent="." unique_id=1348547451 instance=ExtResource("6_rcsii")]
+position = Vector2(2852, 576)
+
+[node name="fence25" parent="." unique_id=148068932 instance=ExtResource("6_rcsii")]
+position = Vector2(2981, 575)
+
+[node name="fence26" parent="." unique_id=2094868762 instance=ExtResource("6_rcsii")]
+position = Vector2(3108, 574)
+
+[node name="fence47" parent="." unique_id=1932879517 instance=ExtResource("6_rcsii")]
+position = Vector2(1220, 17)
+
+[node name="fence48" parent="." unique_id=1384572538 instance=ExtResource("6_rcsii")]
+position = Vector2(1349, 16)
+
+[node name="fence49" parent="." unique_id=1530567616 instance=ExtResource("6_rcsii")]
+position = Vector2(1476, 15)
+
+[node name="fence50" parent="." unique_id=1006784765 instance=ExtResource("6_rcsii")]
+position = Vector2(1605, 14)
+
+[node name="fence51" parent="." unique_id=2113072812 instance=ExtResource("6_rcsii")]
+position = Vector2(1730, 12)
+
+[node name="fence52" parent="." unique_id=603034909 instance=ExtResource("6_rcsii")]
+position = Vector2(1862, 11)
+
+[node name="fence53" parent="." unique_id=1479693606 instance=ExtResource("6_rcsii")]
+position = Vector2(1989, 10)
+
+[node name="fence60" parent="." unique_id=1483311329 instance=ExtResource("6_rcsii")]
+position = Vector2(1220, 17)
+
+[node name="fence61" parent="." unique_id=102376832 instance=ExtResource("6_rcsii")]
+position = Vector2(1989, 10)
+
+[node name="fence54" parent="." unique_id=506458487 instance=ExtResource("6_rcsii")]
+position = Vector2(2118, 9)
+
+[node name="fence55" parent="." unique_id=1794913960 instance=ExtResource("6_rcsii")]
+position = Vector2(2241, 7)
+
+[node name="fence56" parent="." unique_id=1477513055 instance=ExtResource("6_rcsii")]
+position = Vector2(2370, 6)
+
+[node name="fence57" parent="." unique_id=725998800 instance=ExtResource("6_rcsii")]
+position = Vector2(2497, 5)
+
+[node name="fence58" parent="." unique_id=435538884 instance=ExtResource("6_rcsii")]
+position = Vector2(2626, 4)
+
+[node name="fence59" parent="." unique_id=216193320 instance=ExtResource("6_rcsii")]
+position = Vector2(2754, 2)
+
+[node name="fence27" parent="." unique_id=1560491624 instance=ExtResource("6_rcsii")]
+position = Vector2(3237, 573)
+
+[node name="fence28" parent="." unique_id=971424761 instance=ExtResource("6_rcsii")]
+position = Vector2(3365, 571)
+
+[node name="fence29" parent="." unique_id=1962987448 instance=ExtResource("6_rcsii")]
+position = Vector2(3494, 570)
+
+[node name="fence30" parent="." unique_id=1716230104 instance=ExtResource("6_rcsii")]
+position = Vector2(3621, 569)
+
+[node name="fence31" parent="." unique_id=914890635 instance=ExtResource("6_rcsii")]
+position = Vector2(3750, 568)
+
+[node name="fence32" parent="." unique_id=2045362987 instance=ExtResource("6_rcsii")]
+position = Vector2(3873, 566)
+
+[node name="fence33" parent="." unique_id=1600345083 instance=ExtResource("6_rcsii")]
+position = Vector2(4002, 565)
+
+[node name="fence34" parent="." unique_id=1653995215 instance=ExtResource("6_rcsii")]
+position = Vector2(4129, 564)
+
+[node name="fence35" parent="." unique_id=1136986461 instance=ExtResource("6_rcsii")]
+position = Vector2(4258, 563)
+
+[node name="fence36" parent="." unique_id=1697602140 instance=ExtResource("6_rcsii")]
+position = Vector2(4386, 561)
+
+[node name="fence37" parent="." unique_id=1030499583 instance=ExtResource("6_rcsii")]
+position = Vector2(4515, 560)
+
+[node name="fence38" parent="." unique_id=1108618301 instance=ExtResource("6_rcsii")]
+position = Vector2(4642, 559)
+
+[node name="fence39" parent="." unique_id=2145826398 instance=ExtResource("6_rcsii")]
+position = Vector2(4771, 558)
+
+[node name="fence40" parent="." unique_id=751948358 instance=ExtResource("6_rcsii")]
+position = Vector2(4894, 558)
+
+[node name="fence41" parent="." unique_id=1573819338 instance=ExtResource("6_rcsii")]
+position = Vector2(5023, 557)
+
+[node name="fence42" parent="." unique_id=1027196675 instance=ExtResource("6_rcsii")]
+position = Vector2(5150, 556)
+
+[node name="fence43" parent="." unique_id=2089639552 instance=ExtResource("6_rcsii")]
+position = Vector2(5279, 555)
+
+[node name="fence44" parent="." unique_id=1148777321 instance=ExtResource("6_rcsii")]
+position = Vector2(5407, 553)
+
+[node name="fence45" parent="." unique_id=1151611973 instance=ExtResource("6_rcsii")]
+position = Vector2(5536, 552)
+
+[node name="fence46" parent="." unique_id=827160111 instance=ExtResource("6_rcsii")]
+position = Vector2(5663, 551)
+
+[node name="Door2" parent="." unique_id=723502738 instance=ExtResource("7_s123t")]
+position = Vector2(5247, 228)

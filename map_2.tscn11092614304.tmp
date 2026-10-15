@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://dqtcevwiggtym"]
+
+[ext_resource type="Texture2D" uid="uid://itnkm1kwo38" path="res://2D Skeletons/Sprites/2.png" id="1_0nuxv"]
+[ext_resource type="PackedScene" uid="uid://b8l3a7dc7auwj" path="res://golem.tscn" id="2_0nuxv"]
+[ext_resource type="Texture2D" uid="uid://cimtebtqgg1ji" path="res://4.png" id="2_frbht"]
+[ext_resource type="PackedScene" uid="uid://bomg3c3377dj7" path="res://bob.tscn" id="2_igs0g"]
+[ext_resource type="Script" uid="uid://bhwu000q55y43" path="res://enter_room_2_trigger.gd" id="5_frbht"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jknfv"]
+size = Vector2(1160, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b8x4h"]
+size = Vector2(16, 623)
+
+[node name="Map2" type="Node2D" unique_id=106595262]
+
+[node name="Room1" type="Sprite2D" parent="." unique_id=318540242]
+position = Vector2(586.5, 333.00003)
+scale = Vector2(0.30078125, 0.37227947)
+texture = ExtResource("1_0nuxv")
+
+[node name="Camera2D" type="Camera2D" parent="Room1" unique_id=1530793558]
+limit_left = 0
+limit_top = 0
+limit_right = 1152
+limit_bottom = 648
+
+[node name="Room2" type="Sprite2D" parent="." unique_id=1917835884]
+position = Vector2(1736, 327.875)
+scale = Vector2(0.29967442, 0.8294004)
+texture = ExtResource("2_frbht")
+
+[node name="Camera2D" type="Camera2D" parent="Room2" unique_id=2131949544]
+limit_left = 1154
+limit_top = 12
+limit_right = 2306
+limit_bottom = 660
+
+[node name="Bob" parent="." unique_id=2025202253 instance=ExtResource("2_igs0g")]
+position = Vector2(140, 384)
+
+[node name="Golem" parent="." unique_id=677982196 instance=ExtResource("2_0nuxv")]
+position = Vector2(778, 336)
+
+[node name="Top" type="StaticBody2D" parent="." unique_id=1173427948]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Top" unique_id=190560330]
+position = Vector2(579, 126)
+shape = SubResource("RectangleShape2D_jknfv")
+
+[node name="Top2" type="StaticBody2D" parent="." unique_id=510003906]
+position = Vector2(1164, 3)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Top2" unique_id=651324646]
+position = Vector2(579, 126)
+shape = SubResource("RectangleShape2D_jknfv")
+
+[node name="Bottom" type="StaticBody2D" parent="." unique_id=1452431054]
+position = Vector2(191, 744)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bottom" unique_id=723679153]
+position = Vector2(385, -118)
+shape = SubResource("RectangleShape2D_jknfv")
+
+[node name="Bottom2" type="StaticBody2D" parent="." unique_id=1157786621]
+position = Vector2(1355, 747)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bottom2" unique_id=960703601]
+position = Vector2(385, -118)
+shape = SubResource("RectangleShape2D_jknfv")
+
+[node name="EnterRoom2Trigger" type="Area2D" parent="." unique_id=280610136]
+position = Vector2(1152, 70)
+script = ExtResource("5_frbht")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnterRoom2Trigger" unique_id=1118881274]
+position = Vector2(-2, 301.5)
+shape = SubResource("RectangleShape2D_b8x4h")
+
+[connection signal="body_entered" from="EnterRoom2Trigger" to="Bob" method="_on_enter_room_2_trigger_body_entered"]

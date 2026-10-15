@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dp1dnt4043wqg"]
+
+[ext_resource type="Script" uid="uid://d08ysqxpxmfwt" path="res://bonearang.gd" id="1_mxw2f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cs4na"]
+
+[node name="Bonearang" type="Area2D" unique_id=1411421842]
+script = ExtResource("1_mxw2f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=212531334]
+shape = SubResource("CircleShape2D_cs4na")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1285436479]
+offset_left = -6.0
+offset_top = -5.0
+offset_right = 7.0
+offset_bottom = 5.0
+color = Color(0.05490196, 0.10980392, 1, 1)

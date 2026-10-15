@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bl7m181iltr2k"]
+
+[ext_resource type="Script" uid="uid://cgpxij5tg5711" path="res://door.gd" id="1_e7htq"]
+[ext_resource type="Texture2D" uid="uid://deetkyuoyb1uf" path="res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png" id="2_rvr4x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hun61"]
+size = Vector2(218, 243)
+
+[node name="Door" type="Area2D" unique_id=1082767917]
+script = ExtResource("1_e7htq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1301377878]
+position = Vector2(4, 38.5)
+shape = SubResource("RectangleShape2D_hun61")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=324755884]
+texture = ExtResource("2_rvr4x")
