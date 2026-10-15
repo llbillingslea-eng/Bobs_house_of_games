@@ -26,7 +26,17 @@ scale = Vector2(0.75208336, 0.6502732)
 texture = SubResource("CompressedTexture2D_s123t")
 
 [node name="5" type="Sprite2D" parent="." unique_id=1944346033]
-position = Vector2(1972.9999, 328)
+position = Vector2(2305, 316)
+scale = Vector2(0.42382815, 0.46904588)
+texture = ExtResource("3_frbht")
+
+[node name="9" type="Sprite2D" parent="." unique_id=1814794822]
+position = Vector2(3850, 288)
+scale = Vector2(0.42382815, 0.46904588)
+texture = ExtResource("3_frbht")
+
+[node name="10" type="Sprite2D" parent="." unique_id=216393774]
+position = Vector2(4998, 272)
 scale = Vector2(0.42382815, 0.46904588)
 texture = ExtResource("3_frbht")
 
