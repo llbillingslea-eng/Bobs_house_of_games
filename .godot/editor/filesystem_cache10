@@ -1,42 +1,44 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1792084462
-2.png::CompressedTexture2D::5288754925003572336::1792084435::1792084469::1::::<><><>0<>0<>5c81b858808ae62c30c6152c3ec18dc7<>res://.godot/imported/2.png-3f238cfe6181f9f93f40cee36336f408.ctex::
-4.png::CompressedTexture2D::5360285498187245938::1792084167::1792084203::1::::<><><>0<>0<>5ab7523c8cdb2ddb9f32830e872401fc<>res://.godot/imported/4.png-cf0c36ab2aa3a6a557ce983302464362.ctex::
-5.png::CompressedTexture2D::414728978868243478::1792084167::1792084203::1::::<><><>0<>0<>68e6d138a7ca7ba3a9fd48c3d49eabeb<>res://.godot/imported/5.png-d8eabfb4819dbc68a3ed4acdc14b975c.ctex::
-barrel.tscn::PackedScene::4886387996407153036::1792084167::0::1::::<><><>0<>0<><>::uid://lk3guserwagk::::res://Other_objects.png
-bob.gd::GDScript::2406358947986504355::1792084167::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bob.tscn::PackedScene::3394251481477647710::1792084167::0::1::::<><><>0<>0<><>::uid://bajwm6vko87fr::::res://bob.gd<>uid://6cc721lwetww::::res://2D Skeletons/idle.png
-bonearang.gd::GDScript::8983597836647617795::1792084167::0::1::::<>Area2D<><>0<>0<><>::
-bonearang.tscn::PackedScene::8265974937473152782::1792084167::0::1::::<><><>0<>0<><>::uid://d08ysqxpxmfwt::::res://bonearang.gd
-box.gd::GDScript::7596718861677456115::1792084167::0::1::::<>Area2D<><>0<>0<><>::
-box.tscn::PackedScene::5196858417479685443::1792084167::0::1::::<><><>0<>0<><>::uid://doqjces3d7jpc::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png<>uid://dgh535k4j0uud::::res://box.gd
-camera_2d.gd::GDScript::8271884829603477380::1792084167::0::1::::<>Camera2D<><>0<>0<><>::
-Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png::CompressedTexture2D::7449447709574013405::1792084167::1792084202::1::::<><><>0<>0<>af61a0eda80bc384cc2d4369918dd470<>res://.godot/imported/Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png-9efba8ebcb987eebd47bf527307f9766.ctex::
-Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png::CompressedTexture2D::8175486169776770516::1792084167::1792084202::1::::<><><>0<>0<>fd40eb77cbdae8eeee41b6d9562cb973<>res://.godot/imported/Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png-6efd7996a83d2a20b41a8b1aa924f46c.ctex::
-door2.gd::GDScript::1054967196033238338::1792084167::0::1::::<>Area2D<><>0<>0<><>::
-door2.tscn::PackedScene::3225334860210514988::1792084167::0::1::::<><><>0<>0<><>::uid://cgpxij5tg5711::::res://door.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
-door.gd::GDScript::5226351392636952766::1792084167::0::1::::<>Area2D<><>0<>0<><>::
-door.tscn::PackedScene::612023020578956711::1792084167::0::1::::<><><>0<>0<><>::uid://cgpxij5tg5711::::res://door.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
-door_2.gd::GDScript::3550407952059667172::1792084167::0::1::::<>Area2D<><>0<>0<><>::
-door_2.tscn::PackedScene::1852958872419117186::1792084167::0::1::::<><><>0<>0<><>::uid://bqt3x2qunf605::::res://door_2.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
-enter_room_2_trigger.gd::GDScript::2924419236923723238::1792084167::0::1::::<>Node2D<><>0<>0<><>::
-fence.tscn::PackedScene::2683328521473164683::1792084167::0::1::::<><><>0<>0<><>::uid://cnrsn5vfohgh2::::res://2D Skeletons/Sprites/Cartoon_Medieval_Training Arena_Level_Set_Environment - Fence 03.png
-full.png::CompressedTexture2D::6706879955077123073::1792084167::1792084202::1::::<><><>0<>0<>f84cfa1160a78b441e1a0ffef838e74c<>res://.godot/imported/full.png-5a8d97316ae8dd9641682e09c5a2a999.ctex::
-game_background_1.png::CompressedTexture2D::1328464399948739202::1792084167::1792084203::1::::<><><>0<>0<>dd9e0f323e21fdcc01725cee0f4bf4db<>res://.godot/imported/game_background_1.png-87c9cdd52e938c46b9820b05e97a29cd.ctex::
-global.gd::GDScript::8671803540384080096::1792084167::0::1::::<>Node<><>0<>0<><>::
-golem.gd::GDScript::4131075255197782111::1792084167::0::1::::<>CharacterBody2D<><>0<>0<><>::
-golem.tscn::PackedScene::4727062440355563589::1792084167::0::1::::<><><>0<>0<><>::uid://by4ehaarrqssd::::res://golem.gd<>uid://c0x6mtl331lho::::res://golem_idle.png
-golem_chase.png::CompressedTexture2D::4169845576859254926::1792084167::1792084203::1::::<><><>0<>0<>3f754239867488a504f0b498e3823590<>res://.godot/imported/golem_chase.png-828352df9e3960f7f2d86f6830179ad5.ctex::
-golem_frighten.png::CompressedTexture2D::3747395208953917271::1792084167::1792084203::1::::<><><>0<>0<>244fee3fd916e158c730af0685c100c4<>res://.godot/imported/golem_frighten.png-e2e050dea4e6331e1bcbc782fc7f962e.ctex::
-golem_idle.png::CompressedTexture2D::6576947819230151160::1792084167::1792084203::1::::<><><>0<>0<>addb56b97f4742b254a970e306a29525<>res://.godot/imported/golem_idle.png-bc203e28a8cfc02ddfdecdca8fae86e5.ctex::
-icon.svg::CompressedTexture2D::6592374744428654013::1792084167::1792084202::1::::<><><>0<>0<>9dc8a416fc75e50916335a2153f21b33<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-idle.png::CompressedTexture2D::3590611893038874117::1792084435::1792084468::1::::<><><>0<>0<>521d2ec5360aa725de4b5f3367026e88<>res://.godot/imported/idle.png-345bd841398ecb5f0be76f8faade9523.ctex::
-map_1.tscn::PackedScene::1582078542163861164::1792084167::0::1::::<><><>0<>0<><>::uid://cuha4ao5g1n6t::::res://walls.tscn<>uid://iyp6u1flxnv8::::res://door.tscn<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://b8l3a7dc7auwj::::res://golem.tscn
-map_2.gd::GDScript::6738091739126519859::1792084167::0::1::::<>Node2D<><>0<>0<><>::
-map_2.tscn::PackedScene::8321636441123919768::1792084167::0::1::::<><><>0<>0<><>::uid://itnkm1kwo38::::res://2D Skeletons/Sprites/2.png<>uid://c288ne13mwfbn::::res://map_2.gd<>uid://b8l3a7dc7auwj::::res://golem.tscn<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://f55r4xxse0ny::::res://5.png<>uid://cbvadjosiagfk::::res://barrel.tscn<>uid://beh3a8gnqqckp::::res://fence.tscn<>uid://1nt7x73mylcs::::res://door_2.tscn
-map_3.tscn::PackedScene::8502577553361429662::1792084167::0::1::::<><><>0<>0<><>::uid://itnkm1kwo38::::res://2D Skeletons/Sprites/2.png<>uid://cfeyqfl06bfti::::res://assets/2.png<>uid://cimtebtqgg1ji::::res://4.png<>uid://f55r4xxse0ny::::res://5.png<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://cgbnq7xn000ix::::res://box.tscn<>uid://iyp6u1flxnv8::::res://door.tscn<>uid://c2s4lk6fnunlh::::res://full.png
-Other_objects.png::CompressedTexture2D::794432926598651030::1792084167::1792084202::1::::<><><>0<>0<>c171a19c1611b799921095b7eb9069d9<>res://.godot/imported/Other_objects.png-a56c7aff9e197b8d840e1d7f347ba556.ctex::
-Proposal.md::TextFile::-1::1792084167::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1792084167::0::1::::<><><>0<>0<><>::
-walls2.tscn::PackedScene::3582732695619163033::1792084167::0::1::::<><><>0<>0<><>::
-walls.tscn::PackedScene::6191120695447890773::1792084167::0::1::::<><><>0<>0<><>::
+::res://::1792086388
+2.png::CompressedTexture2D::5288754925003572336::1792084624::1792084940::1::::<><><>0<>0<>5c81b858808ae62c30c6152c3ec18dc7<>res://.godot/imported/2.png-3f238cfe6181f9f93f40cee36336f408.ctex::
+4.png::CompressedTexture2D::5360285498187245938::1792083240::1792084937::1::::<><><>0<>0<>5ab7523c8cdb2ddb9f32830e872401fc<>res://.godot/imported/4.png-cf0c36ab2aa3a6a557ce983302464362.ctex::
+5.png::CompressedTexture2D::414728978868243478::1792083240::1792084938::1::::<><><>0<>0<>68e6d138a7ca7ba3a9fd48c3d49eabeb<>res://.godot/imported/5.png-d8eabfb4819dbc68a3ed4acdc14b975c.ctex::
+barrel.tscn::PackedScene::4886387996407153036::1792083240::0::1::::<><><>0<>0<><>::uid://lk3guserwagk::::res://Other_objects.png
+bob.gd::GDScript::2406358947986504355::1792086105::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bob.tscn::PackedScene::3394251481477647710::1792085781::0::1::::<><><>0<>0<><>::uid://bajwm6vko87fr::::res://bob.gd<>uid://brfk4anpkq6f6::::res://idle.png
+bonearang.gd::GDScript::8983597836647617795::1792083240::0::1::::<>Area2D<><>0<>0<><>::
+bonearang.tscn::PackedScene::8265974937473152782::1792083240::0::1::::<><><>0<>0<><>::uid://d08ysqxpxmfwt::::res://bonearang.gd
+box.gd::GDScript::7596718861677456115::1792083240::0::1::::<>Area2D<><>0<>0<><>::
+box.tscn::PackedScene::5196858417479685443::1792083240::0::1::::<><><>0<>0<><>::uid://doqjces3d7jpc::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png<>uid://dgh535k4j0uud::::res://box.gd
+camera_2d.gd::GDScript::8271884829603477380::1792085781::0::1::::<>Camera2D<><>0<>0<><>::
+Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png::CompressedTexture2D::7449447709574013405::1792083240::1792084936::1::::<><><>0<>0<>af61a0eda80bc384cc2d4369918dd470<>res://.godot/imported/Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png-9efba8ebcb987eebd47bf527307f9766.ctex::
+Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png::CompressedTexture2D::8175486169776770516::1792083240::1792084936::1::::<><><>0<>0<>fd40eb77cbdae8eeee41b6d9562cb973<>res://.godot/imported/Cartoon_Medieval_Training Arena_Level_Set_Environment - Wooden Crate.png-6efd7996a83d2a20b41a8b1aa924f46c.ctex::
+door2.gd::GDScript::1054967196033238338::1792083240::0::1::::<>Area2D<><>0<>0<><>::
+door2.tscn::PackedScene::3225334860210514988::1792083240::0::1::::<><><>0<>0<><>::uid://cgpxij5tg5711::::res://door.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
+door.gd::GDScript::5226351392636952766::1792083240::0::1::::<>Area2D<><>0<>0<><>::
+door.tscn::PackedScene::612023020578956711::1792083240::0::1::::<><><>0<>0<><>::uid://cgpxij5tg5711::::res://door.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
+door_2.gd::GDScript::3550407952059667172::1792083240::0::1::::<>Area2D<><>0<>0<><>::
+door_2.tscn::PackedScene::1852958872419117186::1792083240::0::1::::<><><>0<>0<><>::uid://bqt3x2qunf605::::res://door_2.gd<>uid://deetkyuoyb1uf::::res://Cartoon_Medieval_Training Arena_Level_Set_Environment - Arch.png
+enter_room_2_trigger.gd::GDScript::2924419236923723238::1792083240::0::1::::<>Node2D<><>0<>0<><>::
+fence.tscn::PackedScene::2683328521473164683::1792083240::0::1::::<><><>0<>0<><>::uid://cnrsn5vfohgh2::::res://2D Skeletons/Sprites/Cartoon_Medieval_Training Arena_Level_Set_Environment - Fence 03.png
+full.png::CompressedTexture2D::6706879955077123073::1792083240::1792084936::1::::<><><>0<>0<>f84cfa1160a78b441e1a0ffef838e74c<>res://.godot/imported/full.png-5a8d97316ae8dd9641682e09c5a2a999.ctex::
+game_background_1.png::CompressedTexture2D::1328464399948739202::1792083240::1792084938::1::::<><><>0<>0<>dd9e0f323e21fdcc01725cee0f4bf4db<>res://.godot/imported/game_background_1.png-87c9cdd52e938c46b9820b05e97a29cd.ctex::
+global.gd::GDScript::8671803540384080096::1792083240::0::1::::<>Node<><>0<>0<><>::
+golem.gd::GDScript::4131075255197782111::1792085730::0::1::::<>CharacterBody2D<><>0<>0<><>::
+golem.tscn::PackedScene::4727062440355563589::1792083240::0::1::::<><><>0<>0<><>::uid://by4ehaarrqssd::::res://golem.gd<>uid://c0x6mtl331lho::::res://golem_idle.png
+golem_chase.png::CompressedTexture2D::4169845576859254926::1792083240::1792084937::1::::<><><>0<>0<>3f754239867488a504f0b498e3823590<>res://.godot/imported/golem_chase.png-828352df9e3960f7f2d86f6830179ad5.ctex::
+golem_frighten.png::CompressedTexture2D::3747395208953917271::1792083240::1792084937::1::::<><><>0<>0<>244fee3fd916e158c730af0685c100c4<>res://.godot/imported/golem_frighten.png-e2e050dea4e6331e1bcbc782fc7f962e.ctex::
+golem_idle.png::CompressedTexture2D::6576947819230151160::1792083240::1792084937::1::::<><><>0<>0<>addb56b97f4742b254a970e306a29525<>res://.godot/imported/golem_idle.png-bc203e28a8cfc02ddfdecdca8fae86e5.ctex::
+icon.svg::CompressedTexture2D::6592374744428654013::1792083240::1792084937::1::::<><><>0<>0<>9dc8a416fc75e50916335a2153f21b33<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+idle.png::CompressedTexture2D::3590611893038874117::1792084624::1792084937::1::::<><><>0<>0<>521d2ec5360aa725de4b5f3367026e88<>res://.godot/imported/idle.png-345bd841398ecb5f0be76f8faade9523.ctex::
+kick.png::CompressedTexture2D::8801012602509250141::1792086388::1792086388::1::::<><><>0<>0<>72ca99339c6ebe28c680bf38ef2bb068<>res://.godot/imported/kick.png-5f579b2699a2dc59bb5a76048f2cfabd.ctex::
+map_1.tscn::PackedScene::1582078542163861164::1792083240::0::1::::<><><>0<>0<><>::uid://cuha4ao5g1n6t::::res://walls.tscn<>uid://iyp6u1flxnv8::::res://door.tscn<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://b8l3a7dc7auwj::::res://golem.tscn
+map_2.gd::GDScript::6738091739126519859::1792083240::0::1::::<>Node2D<><>0<>0<><>::
+map_2.tscn::PackedScene::8321636441123919768::1792083240::0::1::::<><><>0<>0<><>::uid://itnkm1kwo38::::res://2D Skeletons/Sprites/2.png<>uid://c288ne13mwfbn::::res://map_2.gd<>uid://b8l3a7dc7auwj::::res://golem.tscn<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://f55r4xxse0ny::::res://5.png<>uid://cbvadjosiagfk::::res://barrel.tscn<>uid://beh3a8gnqqckp::::res://fence.tscn<>uid://1nt7x73mylcs::::res://door_2.tscn
+map_3.tscn::PackedScene::8502577553361429662::1792086128::0::1::::<><><>0<>0<><>::uid://chl6aygfsgy2k::::res://2.png<>uid://cimtebtqgg1ji::::res://4.png<>uid://f55r4xxse0ny::::res://5.png<>uid://bomg3c3377dj7::::res://bob.tscn<>uid://cgbnq7xn000ix::::res://box.tscn<>uid://iyp6u1flxnv8::::res://door.tscn<>uid://c2s4lk6fnunlh::::res://full.png
+Other_objects.png::CompressedTexture2D::794432926598651030::1792083240::1792084937::1::::<><><>0<>0<>c171a19c1611b799921095b7eb9069d9<>res://.godot/imported/Other_objects.png-a56c7aff9e197b8d840e1d7f347ba556.ctex::
+Proposal.md::TextFile::-1::1792083240::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1792083240::0::1::::<><><>0<>0<><>::
+throw.png::CompressedTexture2D::2532366181729126835::1792086240::1792086336::1::::<><><>0<>0<>9899662922773a3477516c4088f03a78<>res://.godot/imported/throw.png-2200bd8b224cc238e56b564f5ebf4860.ctex::
+walls2.tscn::PackedScene::3582732695619163033::1792083240::0::1::::<><><>0<>0<><>::
+walls.tscn::PackedScene::6191120695447890773::1792083240::0::1::::<><><>0<>0<><>::

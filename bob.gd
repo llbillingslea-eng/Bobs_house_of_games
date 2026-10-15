@@ -62,15 +62,15 @@ func _change_state(new_state: State) -> void:
 
 	match new_state:
 		State.MOVE:
-			sprite.texture = load("res://2D Skeletons/idle.png")
+			sprite.texture = load("res://idle.png")
 
 		State.ATTACK:
 			action_timer = action_duration
-			sprite.texture = load("res://2D Skeletons/Sprites/kick.png")
+			sprite.texture = load("res://kick.png")
 
 		State.THROW:
 			action_timer = action_duration
-			sprite.texture = load("res://2D Skeletons/Sprites/throw.png")
+			sprite.texture = load("res:///throw.png")
 			_spawn_bullet()
 
 func _spawn_bullet() -> void:
