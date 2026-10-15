@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://b2y7bh6pekbkg"]
+
+[ext_resource type="Texture2D" uid="uid://br8lf6qm4dr57" path="res://Backgrounds/Background_1.png" id="1_hbikx"]
+[ext_resource type="Texture2D" uid="uid://crjyexd4537pq" path="res://Backgrounds/Background_0.png" id="2_1veaq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
+size = Vector2(1152, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall"]
+size = Vector2(24, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall2"]
+size = Vector2(24, 648)
+
+[node name="Starter_Level" type="StaticBody2D" unique_id=439237494]
+
+[node name="FloorRect" type="ColorRect" parent="." unique_id=1524713873]
+offset_top = 600.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="LeftRect" type="ColorRect" parent="." unique_id=1846523365]
+offset_right = 24.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="RightRect" type="ColorRect" parent="." unique_id=616623389]
+offset_left = 1128.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="Floor" type="CollisionShape2D" parent="." unique_id=558465346]
+position = Vector2(576, 624)
+shape = SubResource("RectangleShape2D_floor")
+
+[node name="LeftWall" type="CollisionShape2D" parent="." unique_id=177335066]
+position = Vector2(12, 324)
+shape = SubResource("RectangleShape2D_wall")
+
+[node name="RightWall" type="CollisionShape2D" parent="." unique_id=1965291638]
+position = Vector2(1140, 324)
+shape = SubResource("RectangleShape2D_wall2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1236096820]
+top_level = true
+light_mask = 2
+visibility_layer = 2
+position = Vector2(580, 324)
+scale = Vector2(1.5013021, 1.5552884)
+texture = ExtResource("1_hbikx")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=140790450]
+position = Vector2(577.5, 326.5)
+scale = Vector2(1.4986979, 1.5552884)
+texture = ExtResource("2_1veaq")

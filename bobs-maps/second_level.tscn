@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://vduvdk1febk8"]
+
+[ext_resource type="Texture2D" uid="uid://cva8t3a7f8lnv" path="res://Backgrounds/caverns-files-web/Caverns-x1-preview.png" id="1_1ma05"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
+size = Vector2(1152, 105)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall"]
+size = Vector2(24, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall2"]
+size = Vector2(24, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8tonq"]
+size = Vector2(609, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r4mjs"]
+size = Vector2(614, 31.5)
+
+[node name="Second_Level" type="StaticBody2D" unique_id=439237494]
+
+[node name="FloorRect" type="ColorRect" parent="." unique_id=1524713873]
+offset_left = -1.0
+offset_top = 543.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="LeftRect" type="ColorRect" parent="." unique_id=1846523365]
+offset_right = 24.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="LeftRect2" type="ColorRect" parent="." unique_id=1099514987]
+offset_left = 256.0
+offset_top = 326.0
+offset_right = 300.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="LeftRect3" type="ColorRect" parent="." unique_id=2019532746]
+offset_left = 838.0
+offset_top = 326.0
+offset_right = 864.0
+offset_bottom = 649.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="RightRect" type="ColorRect" parent="." unique_id=616623389]
+offset_left = 1128.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="Floor" type="CollisionShape2D" parent="." unique_id=558465346]
+position = Vector2(576, 595.5)
+shape = SubResource("RectangleShape2D_floor")
+
+[node name="LeftWall" type="CollisionShape2D" parent="." unique_id=177335066]
+position = Vector2(12, 324)
+shape = SubResource("RectangleShape2D_wall")
+
+[node name="RightWall" type="CollisionShape2D" parent="." unique_id=1965291638]
+position = Vector2(1140, 324)
+shape = SubResource("RectangleShape2D_wall2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1236096820]
+top_level = true
+light_mask = 2
+visibility_layer = 2
+position = Vector2(576.66675, 324.48077)
+scale = Vector2(2.2526042, 2.2533388)
+texture = ExtResource("1_1ma05")
+
+[node name="Block" type="CollisionShape2D" parent="." unique_id=1238111137]
+position = Vector2(561.5, 436)
+shape = SubResource("RectangleShape2D_8tonq")
+
+[node name="Floor1" type="CollisionShape2D" parent="." unique_id=955257038]
+position = Vector2(562, 339.5)
+shape = SubResource("RectangleShape2D_r4mjs")
+
+[node name="Floor2" type="CollisionShape2D" parent="." unique_id=753711904]
+position = Vector2(556, 199.75)
+shape = SubResource("RectangleShape2D_r4mjs")
