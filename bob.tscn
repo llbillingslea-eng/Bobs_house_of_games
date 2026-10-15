@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bomg3c3377dj7"]
 
 [ext_resource type="Script" uid="uid://bajwm6vko87fr" path="res://bob.gd" id="1_icjee"]
-[ext_resource type="Texture2D" uid="uid://6cc721lwetww" path="res://2D Skeletons/idle.png" id="2_0rv64"]
+[ext_resource type="Texture2D" uid="uid://brfk4anpkq6f6" path="res://idle.png" id="2_0rv64"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cs4na"]
 size = Vector2(184, 200)
