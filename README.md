@@ -4,8 +4,8 @@ Various Games in Godot
 Team Members: Laken Billingslea, James Brand
 
 Bob the skeleton Aesthetics:
-Black and white
-Turn based
+Full color dungeon exploration game. Step into the sandals of Bob the Skeleton and find your way back to your grave whilst 
+defending yourself against the Magic Wizard's army of undead minions. 
 
 Core loop of Bob the Skeleton:
 explore level, defeat rival skeletons, improve gear, 
