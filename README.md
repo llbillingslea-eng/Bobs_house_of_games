@@ -10,4 +10,9 @@ Turn based
 Core loop of Bob the Skeleton:
 explore level, defeat rival skeletons, improve gear, 
 
+WASD to move
+E for interactions
+F for Kick
+Space for Bone Throw
+
 Usernames: Oshuratitan9, catdad32
