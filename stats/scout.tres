@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EntityStats" format=3 uid="uid://bjyrwd2pxos4h"]
+
+[ext_resource type="Script" uid="uid://yg344lmujshs" path="res://stats/entity_stats.gd" id="1_wqhh5"]
+
+[resource]
+script = ExtResource("1_wqhh5")
+max_health = 1
+speed = 210.0
+sight_range = 420.0
+tint = Color(0, 1, 1, 0.6745098)
+metadata/_custom_type_script = "uid://yg344lmujshs"

@@ -9,7 +9,6 @@ size = Vector2(72, 136)
 [node name="Golem" type="CharacterBody2D" unique_id=1391866760]
 position = Vector2(10, -19)
 script = ExtResource("1_uo40p")
-metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=786227639]
 position = Vector2(26, 56.000008)
